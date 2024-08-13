@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadioMK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="RadioMK Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#djs">DJs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section-home">
+            <div class="overlay"></div>
+            <div class="container">
+                <h1>Welcome to RadioMK</h1>
+                <p>Your best online radio station for the latest hits and classic tunes.</p>
+                <div class="player">
+                    <audio controls>
+                        <source src="your-radio-stream-url" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule" class="section-schedule">
+            <div class="container">
+                <h2>Show Schedule</h2>
+                <div class="schedule-grid">
+                    <div class="schedule-item">
+                        <h3>Monday</h3>
+                        <p>Morning Vibes with DJ Max</p>
+                        <p>8:00 AM - 10:00 AM</p>
+                    </div>
+                    <div class="schedule-item">
+                        <h3>Tuesday</h3>
+                        <p>Chill Beats with DJ Sophie</p>
+                        <p>12:00 PM - 2:00 PM</p>
+                    </div>
+                    <div class="schedule-item">
+                        <h3>Wednesday</h3>
+                        <p>Classic Rock Hour with DJ Alex</p>
+                        <p>4:00 PM - 6:00 PM</p>
+                    </div>
+                    <div class="schedule-item">
+                        <h3>Thursday</h3>
+                        <p>Top Hits with DJ Mia</p>
+                        <p>10:00 AM - 12:00 PM</p>
+                    </div>
+                    <div class="schedule-item">
+                        <h3>Friday</h3>
+                        <p>Weekend Kickoff with DJ Leo</p>
+                        <p>6:00 PM - 8:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="djs" class="section-djs">
+            <div class="container">
+                <h2>Meet Our DJs</h2>
+                <div class="dj-grid">
+                    <div class="dj-item">
+                        <img src="dj1.jpg" alt="DJ Max">
+                        <h3>DJ Max</h3>
+                        <p>Morning Vibes</p>
+                    </div>
+                    <div class="dj-item">
+                        <img src="dj2.jpg" alt="DJ Sophie">
+                        <h3>DJ Sophie</h3>
+                        <p>Chill Beats</p>
+                    </div>
+                    <div class="dj-item">
+                        <img src="dj3.jpg" alt="DJ Alex">
+                        <h3>DJ Alex</h3>
+                        <p>Classic Rock Hour</p>
+                    </div>
+                    <div class="dj-item">
+                        <img src="dj4.jpg" alt="DJ Mia">
+                        <h3>DJ Mia</h3>
+                        <p>Top Hits</p>
+                    </div>
+                    <div class="dj-item">
+                        <img src="dj5.jpg" alt="DJ Leo">
+                        <h3>DJ Leo</h3>
+                        <p>Weekend Kickoff</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 RadioMK. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
